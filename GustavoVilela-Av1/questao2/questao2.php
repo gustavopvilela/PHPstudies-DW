@@ -1,6 +1,9 @@
 <html>
 <head>
     <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="questao2.css">
+    
     <title>Questão 2</title>
 </head>
 <body>
