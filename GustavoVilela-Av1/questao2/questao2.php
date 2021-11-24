@@ -16,9 +16,9 @@
             }
         }
         
-        $salario = isset($_GET["salario"]) ? $_GET["salario"] : 0;
+        $salario = isset($_GET["salario"]) ? $_GET["salario"] : 1;
 
-        $prestacao = isset($_GET["prestacao"]) ? $_GET["prestacao"] : 0;
+        $prestacao = isset($_GET["prestacao"]) ? $_GET["prestacao"] : 1;
 
         echo calculo($salario, $prestacao);
     ?>
