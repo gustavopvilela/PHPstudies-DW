@@ -11,23 +11,23 @@
         function calculo($i){
             switch($i){
                 case ($i < 10):
-                    return "Sua idade é $i ano(s), então você pagará $100,00 mais o adicional de R$80,00, ou seja, R$180,00.";
+                    return "Sua idade é $i ano(s), então você pagará R$100,00 mais o adicional de R$80,00, ou seja, R$180,00.";
                 break;
 
                 case($i >= 10 && $i <= 30):
-                    return "Sua idade é $i anos, então você pagará $100,00 mais o adicional de R$50,00, ou seja, R$150,00.";
+                    return "Sua idade é $i anos, então você pagará R$100,00 mais o adicional de R$50,00, ou seja, R$150,00.";
                 break;
 
                 case($i >= 40 && $i <= 60):
-                    return "Sua idade é $i anos, então você pagará $100,00 mais o adicional de R$95,00, ou seja, R$195,00.";
+                    return "Sua idade é $i anos, então você pagará R$100,00 mais o adicional de R$95,00, ou seja, R$195,00.";
                 break;
 
                 case($i > 60):
-                    return "Sua idade é $i anos, então você pagará $100,00 mais o adicional de R$130,00, ou seja, R$230,00.";
+                    return "Sua idade é $i anos, então você pagará R$100,00 mais o adicional de R$130,00, ou seja, R$230,00.";
                 break;
 
                 default:
-                    return "Idade inválida.";
+                    return "Idade inválida ou não há plano para a mesma.";
             }
         }
 
