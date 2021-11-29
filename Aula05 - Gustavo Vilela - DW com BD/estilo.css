@@ -1,0 +1,50 @@
+a{
+    position: absolute;
+    right: 30px;
+}
+
+fieldset{
+    width: 300px;
+    height: 150px;
+}
+
+legend{
+    font-style: bold;
+    font-family: "Segoe UI";
+}
+
+#area{
+    position: relative;
+    left: 37%;
+    width: 320px;
+    height: 100px;
+}
+
+#formulario{
+    position: absolute;
+    background-color: #DCDCDC;
+}
+
+#formulario label{
+    position: absolute;
+    left: 19px;
+    margin-right: 5px;
+}
+
+.campo_nome{
+    position: absolute;
+    left: 95px;
+    top: 23px;
+    width: 225px;
+}
+
+.campo_email{
+    position: absolute;
+    left: 95px;
+    margin-top: 2px;
+    width: 225px;
+}
+
+.btn_submit{
+    background-color: #6495ED;
+}
