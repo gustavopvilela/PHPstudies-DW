@@ -1,0 +1,41 @@
+a{
+    position: absolute;
+    right: 30px;
+}
+
+legend{
+    font-style: bold;
+    font-family: "Segoe UI";
+}
+
+#areaCadastro{
+    position: relative;
+    left: 37%;
+    width: 450px;
+    height: 200px;
+}
+
+#formcadastro fieldset{
+    width: 440px;
+    height: 300px;
+}
+
+#formcadastro label{
+    position: absolute;
+    left: 19px;
+    margin-right: 5px;
+}
+
+.btn_cad{
+    background-color: #6495ED;
+    position: relative;
+    left: 50px;
+    width: 350px;
+}
+
+.cad_email, .cad_nome, .cad_senha, .cad_login{
+    position: absolute;
+    left: 95px;
+    margin-top: 2px;
+    width: 330px;
+}
